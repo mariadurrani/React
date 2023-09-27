@@ -6,6 +6,8 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Service from "./components/Service";
 import Contact from "./components/Contact";
+import Account from "./components/SignUp";
+import SignUp from "./components/SignUp";
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
 
       <Navbar />

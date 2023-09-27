@@ -5,12 +5,10 @@ function Contact() {
     <>
       <Hero
         cName="hero"
-        heroImg="https://www.clubstaffing.com/siteassets/blogs/allied-destinations/med-lab-ca-hero-blog-cs.jpg?format=webp"
-        title="Explore and Travel"
-        text="Choose Your Favorite Destination"
-        buttonText="Travel Plan"
+        heroImg="https://www.visafirst.com/blog/wp-content/uploads/2022/07/Lao-Lading-island-in-Krabi-in-Thailand-1536x1023.jpg"
+        title="Contact Us"
+        text=""
         url="/"
-        btnClass="show"
       />
     </>
   );

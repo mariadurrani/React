@@ -5,12 +5,10 @@ function Service() {
     <>
       <Hero
         cName="hero"
-        heroImg="https://www.clubstaffing.com/siteassets/blogs/allied-destinations/med-lab-ca-hero-blog-cs.jpg?format=webp"
-        title="Explore and Travel"
-        text="Choose Your Favorite Destination"
-        buttonText="Travel Plan"
+        heroImg="https://www.visafirst.com/blog/wp-content/uploads/2022/07/Positano-Amalfi-Coast-Italy-1536x1024.jpg"
+        title="Customer Service"
+        text=""
         url="/"
-        btnClass="show"
       />
     </>
   );
