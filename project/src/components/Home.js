@@ -1,5 +1,6 @@
 import "./HomeStyles.css";
 import Hero from "./Hero";
+import Destination from "./Destination";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
         url="/"
         btnClass="show"
       />
+      <Destination />
     </>
   );
 }
