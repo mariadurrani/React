@@ -1,6 +1,7 @@
 import "./HomeStyles.css";
 import Hero from "./Hero";
 import Destination from "./Destination";
+import Trip from "./Trip";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
         btnClass="show"
       />
       <Destination />
+      <Trip />
     </>
   );
 }
