@@ -1,4 +1,5 @@
 import Hero from "./Hero";
+import Trip from "./Trip";
 
 function Contact() {
   return (
@@ -10,6 +11,7 @@ function Contact() {
         text=""
         url="/"
       />
+      <Trip />
     </>
   );
 }

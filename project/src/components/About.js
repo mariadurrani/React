@@ -1,4 +1,5 @@
 import Hero from "./Hero";
+import Trip from "./Trip";
 
 function About() {
   return (
@@ -9,6 +10,7 @@ function About() {
         title="About TRAVL"
         url="/"
       />
+      <Trip />
     </>
   );
 }

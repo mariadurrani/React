@@ -1,4 +1,5 @@
 import Hero from "./Hero";
+import Trip from "./Trip";
 
 function Service() {
   return (
@@ -10,6 +11,7 @@ function Service() {
         text=""
         url="/"
       />
+      <Trip />
     </>
   );
 }
