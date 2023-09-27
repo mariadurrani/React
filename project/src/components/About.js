@@ -1,5 +1,6 @@
 import Hero from "./Hero";
 import Trip from "./Trip";
+import Footer from "./Footer";
 
 function About() {
   return (
@@ -11,6 +12,7 @@ function About() {
         url="/"
       />
       <Trip />
+      <Footer />
     </>
   );
 }

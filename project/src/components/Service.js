@@ -1,5 +1,6 @@
 import Hero from "./Hero";
 import Trip from "./Trip";
+import Footer from "./Footer";
 
 function Service() {
   return (
@@ -12,6 +13,7 @@ function Service() {
         url="/"
       />
       <Trip />
+      <Footer />
     </>
   );
 }

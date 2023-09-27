@@ -1,5 +1,6 @@
 import Hero from "./Hero";
 import Trip from "./Trip";
+import Footer from "./Footer";
 
 function Contact() {
   return (
@@ -12,6 +13,7 @@ function Contact() {
         url="/"
       />
       <Trip />
+      <Footer />
     </>
   );
 }

@@ -2,6 +2,7 @@ import "./HomeStyles.css";
 import Hero from "./Hero";
 import Destination from "./Destination";
 import Trip from "./Trip";
+import Footer from "./Footer";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       />
       <Destination />
       <Trip />
+      <Footer />
     </>
   );
 }
