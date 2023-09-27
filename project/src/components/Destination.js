@@ -1,3 +1,4 @@
+import "./DestinationStyles.css";
 import Image1 from "./images/paris1.webp";
 import Image2 from "./images/paris2.webp";
 
