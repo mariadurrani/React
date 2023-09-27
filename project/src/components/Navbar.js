@@ -1,6 +1,7 @@
 import "./NavbarStyles.css";
 import React from "react";
 import { MenuItems } from "./Menuitems";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -11,9 +12,9 @@ function Navbar() {
           return (
             <li key={index}>
               {
-                <a className={item.cName} href="/">
+                <Link className={item.cName} to={item.url}>
                   {item.title}
-                </a>
+                </Link>
               }
             </li>
           );
